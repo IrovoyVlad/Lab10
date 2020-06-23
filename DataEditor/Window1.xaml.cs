@@ -56,10 +56,7 @@ namespace WpfApp3
 
         private void AddButton_Click(object sender, RoutedEventArgs e)
         {
-            //dataSource.data.Add(new Student(Guid.NewGuid().ToString()));
             NewStudent newStudentDialog = new NewStudent();
-            //newStudentDialog.ShowDialog();
-            //dataSource.data.Add(newStudentDialog.Student);
 
             if (newStudentDialog.ShowDialog() == true)
             {
